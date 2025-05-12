@@ -1,0 +1,40 @@
+
+
+body {
+  background-color: whitesmoke;
+  width: 70%;
+  margin: 0 auto;
+  font-family: Nunito, 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+
+}
+
+.repaso {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  border-top-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+  border: 10px solid rosybrown;
+  color: blueviolet;
+
+}
+
+/* margin 0 auto para centrarlo todo */
+
+h1 {
+  margin: 0 auto;
+}
+input[type="radio"] {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  border: pink 3px solid;
+  background-color: pink;
+  /* border-radius: 1px; */
+  cursor: pointer;
+
+}
+
+input[type="radio"]:checked {
+  background-color: #000; }
